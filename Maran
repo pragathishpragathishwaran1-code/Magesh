@@ -1,43 +1,189 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My First Website</title>
+    <title>AI Future Hub - Explore Artificial Intelligence</title>
+
     <style>
         body {
-            font-family: Arial;
-            background-color: lightblue;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f7ff;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #141e30, #243b55);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 45px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        nav {
+            background: #111;
+            padding: 15px;
             text-align: center;
         }
 
-        h1 {
-            color: darkblue;
-        }
-
-        .box {
-            background: white;
-            padding: 20px;
-            margin: 50px auto;
-            width: 300px;
-            border-radius: 10px;
-        }
-
-        button {
-            background: blue;
+        nav a {
             color: white;
-            padding: 10px;
-            border: none;
-            border-radius: 5px;
+            text-decoration: none;
+            margin: 20px;
+            font-size: 18px;
         }
+
+        nav a:hover {
+            color: cyan;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .hero h2 {
+            color: #243b55;
+            font-size: 32px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            padding: 30px;
+        }
+
+        .card {
+            background: white;
+            width: 280px;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px gray;
+            text-align: center;
+        }
+
+        .card h3 {
+            color: #0066ff;
+        }
+
+        .card button {
+            background: #0066ff;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        .card button:hover {
+            background: #003399;
+        }
+
+        .about {
+            background: #243b55;
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+
+        footer {
+            background: black;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
     </style>
+
 </head>
 
 <body>
 
-    <div class="box">
-        <h1>Welcome to My Website</h1>
-        <p>Hello! This is my first HTML website.</p>
-        <button>Click Me</button>
-    </div>
+<header>
+    <h1>AI Future Hub</h1>
+    <p>Discover the Power of Artificial Intelligence</p>
+</header>
+
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">AI Tools</a>
+    <a href="#">Technology</a>
+    <a href="#">Contact</a>
+</nav>
+
+
+<section class="hero">
+
+<h2>Welcome to the World of AI</h2>
+
+<p>
+Artificial Intelligence is transforming the world by making machines smarter,
+faster and more useful. Explore how AI helps humans in daily life, business,
+education and technology.
+</p>
+
+</section>
+
+
+<div class="container">
+
+<div class="card">
+<h3>Machine Learning</h3>
+<p>
+AI systems learn from data and improve their performance without direct programming.
+</p>
+<button>Explore</button>
+</div>
+
+
+<div class="card">
+<h3>Generative AI</h3>
+<p>
+Create text, images, videos and ideas using powerful AI technologies.
+</p>
+<button>Explore</button>
+</div>
+
+
+<div class="card">
+<h3>Future Technology</h3>
+<p>
+AI will change industries and create smarter solutions for the future.
+</p>
+<button>Explore</button>
+</div>
+
+</div>
+
+
+<section class="about">
+
+<h2>Why Learn AI?</h2>
+
+<p>
+Learning Artificial Intelligence helps you understand modern technology
+and prepares you for future career opportunities.
+</p>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 AI Future Hub | Created with HTML & CSS</p>
+
+</footer>
+
 
 </body>
 </html>
